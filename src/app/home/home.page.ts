@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  public dados = {
+    senha : "",
+    servidor : ""
+  }
   constructor() {}
 
+  chamada(){
+    console.log(this.dados)
+  }
 }
